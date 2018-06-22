@@ -67,7 +67,9 @@ static const CGFloat ScreenScale = 1.17;
 
 #define LRString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
 #define SCLog(...) printf("%s: %s 第%d行: %s\n\n",[[NSString sc_stringDate] UTF8String], [LRString UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
-
+/** 随机色 */
+#define SCColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0];
+#define SuiJiColor SCColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 
 
 #define Kwidth [UIScreen mainScreen].bounds.size.width

@@ -11,6 +11,12 @@
 		C6F8B28120AD27F600E2E901 /* YQ12306ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */; };
 		C6F8B28620AD299600E2E901 /* YQTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28520AD299600E2E901 /* YQTitleView.m */; };
 		C6F8B28920AD2CB800E2E901 /* YQTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28820AD2CB800E2E901 /* YQTitleCollectionViewCell.m */; };
+		C6FAD44920DCE53E0032BF7F /* YQTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD44820DCE53E0032BF7F /* YQTabBarViewController.m */; };
+		C6FAD44C20DCE59F0032BF7F /* YQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD44B20DCE59F0032BF7F /* YQTabBar.m */; };
+		C6FAD44F20DCE89C0032BF7F /* YQAllTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD44E20DCE89C0032BF7F /* YQAllTabBar.m */; };
+		C6FAD45220DCE8C10032BF7F /* YQTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45120DCE8C10032BF7F /* YQTabBarButton.m */; };
+		C6FAD45620DCEEB70032BF7F /* YQMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45520DCEEB70032BF7F /* YQMenuView.m */; };
+		C6FAD45920DCEF300032BF7F /* YQMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45820DCEF300032BF7F /* YQMenuViewController.m */; };
 		D600B8851F6B752D0024411E /* YQPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D600B8841F6B752D0024411E /* YQPerson.m */; };
 		D600B8881F6B76570024411E /* YQZhuangShi.m in Sources */ = {isa = PBXBuildFile; fileRef = D600B8871F6B76570024411E /* YQZhuangShi.m */; };
 		D600B88B1F6B76DB0024411E /* YQShangYi.m in Sources */ = {isa = PBXBuildFile; fileRef = D600B88A1F6B76DB0024411E /* YQShangYi.m */; };
@@ -265,6 +271,18 @@
 		C6F8B28520AD299600E2E901 /* YQTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTitleView.m; sourceTree = "<group>"; };
 		C6F8B28720AD2CB800E2E901 /* YQTitleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTitleCollectionViewCell.h; sourceTree = "<group>"; };
 		C6F8B28820AD2CB800E2E901 /* YQTitleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		C6FAD44720DCE53E0032BF7F /* YQTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTabBarViewController.h; sourceTree = "<group>"; };
+		C6FAD44820DCE53E0032BF7F /* YQTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBarViewController.m; sourceTree = "<group>"; };
+		C6FAD44A20DCE59F0032BF7F /* YQTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTabBar.h; sourceTree = "<group>"; };
+		C6FAD44B20DCE59F0032BF7F /* YQTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBar.m; sourceTree = "<group>"; };
+		C6FAD44D20DCE89C0032BF7F /* YQAllTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAllTabBar.h; sourceTree = "<group>"; };
+		C6FAD44E20DCE89C0032BF7F /* YQAllTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAllTabBar.m; sourceTree = "<group>"; };
+		C6FAD45020DCE8C10032BF7F /* YQTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTabBarButton.h; sourceTree = "<group>"; };
+		C6FAD45120DCE8C10032BF7F /* YQTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBarButton.m; sourceTree = "<group>"; };
+		C6FAD45420DCEEB70032BF7F /* YQMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQMenuView.h; sourceTree = "<group>"; };
+		C6FAD45520DCEEB70032BF7F /* YQMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQMenuView.m; sourceTree = "<group>"; };
+		C6FAD45720DCEF300032BF7F /* YQMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQMenuViewController.h; sourceTree = "<group>"; };
+		C6FAD45820DCEF300032BF7F /* YQMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQMenuViewController.m; sourceTree = "<group>"; };
 		D600B8831F6B752D0024411E /* YQPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPerson.h; sourceTree = "<group>"; };
 		D600B8841F6B752D0024411E /* YQPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPerson.m; sourceTree = "<group>"; };
 		D600B8861F6B76570024411E /* YQZhuangShi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQZhuangShi.h; sourceTree = "<group>"; };
@@ -830,7 +848,7 @@
 			children = (
 				C6F8B27F20AD27F600E2E901 /* YQ12306ViewController.h */,
 				C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */,
-				C6F8B28320AD286E00E2E901 /* Model */,
+				C6FAD44420DCAB700032BF7F /* Model */,
 				C6F8B28220AD286E00E2E901 /* View */,
 			);
 			path = "12306测试";
@@ -847,11 +865,46 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C6F8B28320AD286E00E2E901 /* Model */ = {
+		C6FAD44420DCAB700032BF7F /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C6FAD44520DCE3FE0032BF7F /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				C6FAD45320DCEDB10032BF7F /* 出现下拉菜单 */,
+				C6FAD44620DCE43C0032BF7F /* 自定义TabBar */,
+			);
+			path = "自定义控件";
+			sourceTree = "<group>";
+		};
+		C6FAD44620DCE43C0032BF7F /* 自定义TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C6FAD44720DCE53E0032BF7F /* YQTabBarViewController.h */,
+				C6FAD44820DCE53E0032BF7F /* YQTabBarViewController.m */,
+				C6FAD44A20DCE59F0032BF7F /* YQTabBar.h */,
+				C6FAD44B20DCE59F0032BF7F /* YQTabBar.m */,
+				C6FAD44D20DCE89C0032BF7F /* YQAllTabBar.h */,
+				C6FAD44E20DCE89C0032BF7F /* YQAllTabBar.m */,
+				C6FAD45020DCE8C10032BF7F /* YQTabBarButton.h */,
+				C6FAD45120DCE8C10032BF7F /* YQTabBarButton.m */,
+			);
+			path = "自定义TabBar";
+			sourceTree = "<group>";
+		};
+		C6FAD45320DCEDB10032BF7F /* 出现下拉菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				C6FAD45420DCEEB70032BF7F /* YQMenuView.h */,
+				C6FAD45520DCEEB70032BF7F /* YQMenuView.m */,
+				C6FAD45720DCEF300032BF7F /* YQMenuViewController.h */,
+				C6FAD45820DCEF300032BF7F /* YQMenuViewController.m */,
+			);
+			path = "出现下拉菜单";
 			sourceTree = "<group>";
 		};
 		D600B88F1F6B85490024411E /* 5工厂方法模式 */ = {
@@ -1785,6 +1838,8 @@
 		D6EB46771E7FA52300F245EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD44520DCE3FE0032BF7F /* 自定义控件 */,
+				D6D191ED1EF775DA00379E77 /* 状态模式 */,
 				D66FB6681F38701900FB37A6 /* 工厂模式 */,
 				D6E0D2071F693C6C00F123B5 /* 策略模式 */,
 				D6E0D2181F6A6BFD00F123B5 /* 装饰模式 */,
@@ -1810,7 +1865,6 @@
 				C615679B20DCA91300B4F90E /* 24原型模式 */,
 				D641A0431F272F4F005D678D /* UIPickerView */,
 				D641A0331F26E6DB005D678D /* 操作模型 */,
-				D6D191ED1EF775DA00379E77 /* 状态模式 */,
 				D670526A1EA88DC400565BCB /* 练习 */,
 				D61133FC1E825533008BF2C4 /* LXAlertView */,
 				D61133F51E825342008BF2C4 /* Lib */,
@@ -2193,6 +2247,7 @@
 				D63D95961FFE364F00FFC462 /* ZFLabel.m in Sources */,
 				D63D95821FFE364F00FFC462 /* ZFBar.m in Sources */,
 				D670523F1EA4D42800565BCB /* Dog.m in Sources */,
+				C6FAD44C20DCE59F0032BF7F /* YQTabBar.m in Sources */,
 				D600B8C71F71FF3C0024411E /* YQPersonThinBuilder.m in Sources */,
 				D62F36B51F3C40D1004EF6C8 /* YQTextView.m in Sources */,
 				D6EE17FA1FD1312300191EC3 /* YQHouse.m in Sources */,
@@ -2204,6 +2259,7 @@
 				D6D618411EAEFBD000CF8BE2 /* NSString+Tool.m in Sources */,
 				D600B8C01F70C3490024411E /* YQWaiGuan2.m in Sources */,
 				D6EB46871E7FA52300F245EA /* main.m in Sources */,
+				C6FAD44F20DCE89C0032BF7F /* YQAllTabBar.m in Sources */,
 				D67052901EAA0FFF00565BCB /* YQCat.m in Sources */,
 				D600B8AE1F6BBE200024411E /* YQCopyA.m in Sources */,
 				D600B88E1F6B76E90024411E /* YQXiaYi.m in Sources */,
@@ -2304,6 +2360,7 @@
 				D600B8BD1F70C33A0024411E /* YQWaiGuan1.m in Sources */,
 				D6AB55DB2029859300F7C41E /* ZWMGuideView.m in Sources */,
 				D6E0D21B1F6A6C3B00F123B5 /* YQZhuangShiMoShiViewController.m in Sources */,
+				C6FAD45620DCEEB70032BF7F /* YQMenuView.m in Sources */,
 				D6BF8F891FECAA1900BBD727 /* SMMenuButton.m in Sources */,
 				D63F9D3B1FD7D46D0024F610 /* YQClassModel.m in Sources */,
 				D63D95841FFE364F00FFC462 /* UIBezierPath+Zirkfied.m in Sources */,
@@ -2320,6 +2377,7 @@
 				D6D618471EAEFC2D00CF8BE2 /* NSDate+Util.m in Sources */,
 				D67052531EA5E2A700565BCB /* UIColor+Util.m in Sources */,
 				D6AB55CF20286BD800F7C41E /* NSArray+Log.m in Sources */,
+				C6FAD45920DCEF300032BF7F /* YQMenuViewController.m in Sources */,
 				D66FB66E1F3870B600FB37A6 /* YQBaseViewController.m in Sources */,
 				D62E02401E83F07500F9264A /* UIView+Util.m in Sources */,
 				D63F9D481FDA2D7F0024F610 /* DCPathItemButton.m in Sources */,
@@ -2331,11 +2389,13 @@
 				D63D95801FFE364F00FFC462 /* ZFGenericChart.m in Sources */,
 				D63D95811FFE364F00FFC462 /* ZFBarChart.m in Sources */,
 				D641A0391F26E765005D678D /* YQModelViewController.m in Sources */,
+				C6FAD44920DCE53E0032BF7F /* YQTabBarViewController.m in Sources */,
 				D6EE18701FD55A0C00191EC3 /* YQUserCell.m in Sources */,
 				D63D959C1FFE364F00FFC462 /* ZFCurveAttribute.m in Sources */,
 				D63D34A81F29F0610006EB35 /* YQSecondState.m in Sources */,
 				D63D95A01FFE364F00FFC462 /* ZFHorizontalBar.m in Sources */,
 				D6BF8F8D1FECAA5900BBD727 /* YQShiYongViewController.m in Sources */,
+				C6FAD45220DCE8C10032BF7F /* YQTabBarButton.m in Sources */,
 				D67052421EA4D43100565BCB /* Cat.m in Sources */,
 				D670523C1EA4D41200565BCB /* Animal.m in Sources */,
 				D615219F1F34662C002278AE /* MJExtensionViewController.m in Sources */,
