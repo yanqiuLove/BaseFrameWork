@@ -26,7 +26,7 @@
     [self.view addSubview:inView];
     
     [YQMenuView popFrom:inView content:contentView dismiss:^{
-        
+        SCLog(@"输出测试");
     }];
     
 }
