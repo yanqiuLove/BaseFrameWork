@@ -1,0 +1,82 @@
+//
+//  BaseFrameWork.pch
+//  BaseFrameWork
+//
+//  Created by 赵晚秋 on 2017/3/20.
+//  Copyright © 2017年 赵晚秋. All rights reserved.
+//
+
+#ifndef BaseFrameWork_pch
+#define BaseFrameWork_pch
+
+#import "SCConstString.h"
+#import "UIView+Util.h"
+
+#import "SDCycleScrollView.h"
+#import <MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+MJ.h"
+#import "NSObject+Util.h"
+#import "LXAlertView.h"
+#import "SDWebImageCompat.h"
+#import "UIColor+WJ.h"
+#import "UIColor+Util.h"
+#import <AFNetworking.h>
+#import <WebKit/WebKit.h>
+#import "NSObject+Util.h"
+#import "NSDate+Util.h"
+#import "NSString+ZF.h"
+#import "NSString+Util.h"
+#import <FMDB.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <PINCache/PINCache.h>
+#import "DDLegacyMacros.h"
+#import <MJExtension.h>
+#import "NSString+Util.h"
+
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#define kWindow [UIApplication sharedApplication].keyWindow
+
+
+#define KDelayTime 1.5
+
+static const CGFloat IPhone5Width = 320;
+static const CGFloat ScreenScale = 1.17;
+
+#define kSCREEN_SCALE_WIDTH [UIScreen mainScreen].bounds.size.width/320
+
+
+
+/** 系统版本 */
+#define kIOSVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define IS_WIDESCREEN_4                            (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)480) < __DBL_EPSILON__)
+#define IS_WIDESCREEN_5                            (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)568) < __DBL_EPSILON__)
+#define IS_WIDESCREEN_6                            (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)667) < __DBL_EPSILON__)
+#define IS_WIDESCREEN_6Plus                        (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)736) < __DBL_EPSILON__)
+#define IS_IPHONE                                  ([[[UIDevice currentDevice] model] isEqualToString: @"iPhone"] || [[[UIDevice currentDevice] model] isEqualToString: @"iPhone Simulator"])
+#define IS_IPHONE_4                                (IS_IPHONE && IS_WIDESCREEN_4)
+#define IS_IPHONE_5                                (IS_IPHONE && IS_WIDESCREEN_5)
+#define IS_IPHONE_6                                (IS_IPHONE && IS_WIDESCREEN_6)
+#define IS_IPHONE_6Plus                            (IS_IPHONE && IS_WIDESCREEN_6Plus)
+
+
+#define LRString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#define SCLog(...) printf("%s: %s 第%d行: %s\n\n",[[NSString sc_stringDate] UTF8String], [LRString UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+
+
+
+#define Kwidth [UIScreen mainScreen].bounds.size.width
+#define Kheight [UIScreen mainScreen].bounds.size.height
+#define kAppDelegate  [UIApplication sharedApplication].delegate
+
+typedef NS_ENUM(NSInteger, TestMeiJv) {
+    TestMeiJvOne,
+    TestMeiJvTow
+};
+
+#endif

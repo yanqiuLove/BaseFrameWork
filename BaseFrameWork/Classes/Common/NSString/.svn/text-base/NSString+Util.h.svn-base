@@ -1,0 +1,74 @@
+//
+//  NSString+Util.h
+//  SanChiStudent
+//
+//  Created by xhwl on 16/8/16.
+//  Copyright © 2016年 学会未来. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSString (Util)
+
+/**
+ *  计算文字大小
+ */
+- (CGSize)textSizeWithRenderSize:(CGSize)textSize andFont:(UIFont *)font;
+/**
+ *  计算文字大小
+ *  高度已经加4
+ */
+- (CGSize)textFinalSizeWithRenderSize:(CGSize)textSize andFont:(UIFont *)font;
+
+#pragma mark - 沙河目录
+/**
+ *  追加文档目录
+ */
+- (NSString *)appendDocumentDir;
+
+/**
+ *  追加缓存目录
+ */
+- (NSString *)appendCacheDir;
+
+/**
+ *  追加临时目录
+ */
+- (NSString *)appendTempDir;
+
+
+#pragma mark - 聊天时间格式化
++ (NSString *)showTime:(NSTimeInterval)msglastTime showDetail:(BOOL)showDetail;
+
+/**
+ *  将汉字转换为对应的拼音首字母并转为大写
+ */
++ (NSString *)phonetic:(NSString *)sourceString;
+
+#pragma maark - 正则表达式
++ (BOOL)match:(NSString *)pattern text:(NSString *)text;
+
+
+/**
+ *  打印时间
+ */
++ (NSString *)sc_stringDate;
+
+
+/**
+ *  拼接字符串
+ */
++ (NSString *)sc_joiningTogetherStringWithFirstString:(NSString *)firstString space:(NSString *)space secondString:(NSString *)secondString thirdString:(NSString *)thirdString;
+
+/**
+ *  根据状态码返回汉字
+ */
++ (NSString *)sc_stateWithNumberString:(NSString *)str;
+
+
+/**
+ *  手机号是否合法
+ */
+- (BOOL)phoneNumberIsMatch;
+
+@end

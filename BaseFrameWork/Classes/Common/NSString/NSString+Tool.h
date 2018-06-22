@@ -1,0 +1,54 @@
+//
+//  NSString+Tool.h
+//  iFHDoctor
+//
+//  Created by luozhiping on 15/3/30.
+//  Copyright (c) 2015年 fh21. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSString (Tool)
+/**
+ *  根据当前时间和回复时间计算出具体显示时间
+ */
++ (NSString *)caculateReallyDateWithReplyDateString:(NSString *)dateString;
+
+/**
+ * 时间戳转时间
+ */
++ (NSString *)covertStampToDate:(NSString *)stamp;
+
+/**
+ *  Zhenfei Ren添加
+ *  搜索一个字符串A中的字符串B，然后将所有的A中B的颜色设置为目的颜色
+ *
+ *  @param color     搜索到的字符串的颜色
+ *  @param string    源字符串
+ *  @param searchStr 需要搜索的目的字符串
+ *
+ *  @return 返回带颜色的属性字符串
+ */
++ (NSMutableAttributedString *)convertToColor:(UIColor *)color withString:(NSString *)string andSearchString:(NSString *)searchStr;
+
++ (NSString *)caculateReallyDateNoHourWithReplyDateString:(NSString *)dateString;
+
+/**
+ *  获得与当前时间的差距
+ */
++ (NSString *)deltaWithNow:(NSString *)timeInterval;
+/**
+ *  @return 获取显示的时间 几天几小时几分钟
+ */
++ (NSString *)hotListPhoneTimeFormatedWithMinniuteTime:(NSString *)minuteTime;
+
+//过滤字符串空格和换行
+- (NSString *)filterSpaceAndLine;
+
+//过滤字符串空格
+- (NSString *)filterSpace;
+
+//过滤首尾空格
+- (NSString *)filterFirstAndLastSpace;
+
+@end

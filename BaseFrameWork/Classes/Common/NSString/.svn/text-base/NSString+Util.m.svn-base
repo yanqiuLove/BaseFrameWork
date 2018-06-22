@@ -1,0 +1,185 @@
+//
+//  NSString+Util.m
+//  SanChiStudent
+//
+//  Created by xhwl on 16/8/16.
+//  Copyright © 2016年 学会未来. All rights reserved.
+//
+
+#import "NSString+Util.h"
+
+double OnedayTimeIntervalValue = 24*60*60;  //一天的秒数
+@implementation NSString (Util)
+
+- (CGSize)textSizeWithRenderSize:(CGSize)textSize andFont:(UIFont *)font andParagraphStyle:(NSParagraphStyle *) style{
+    if(self && self.length>0){
+        NSDictionary *attributes = @{NSFontAttributeName:font, NSParagraphStyleAttributeName:style};
+        CGSize size = [self boundingRectWithSize:textSize options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
+        return size;
+    }
+    return CGSizeMake(0, 0);
+}
+
+- (CGSize)textSizeWithRenderSize:(CGSize)textSize andFont:(UIFont *)font {
+    return [self textSizeWithRenderSize:textSize andFont:font andParagraphStyle:[NSMutableParagraphStyle defaultParagraphStyle]];
+}
+
+- (CGSize)textFinalSizeWithRenderSize:(CGSize)textSize andFont:(UIFont *)font {
+    CGSize finalSize = [self textSizeWithRenderSize:textSize andFont:font];
+    return CGSizeMake(finalSize.width+4, finalSize.height+4);
+}
+
+#pragma mark - 文档目录
+- (NSString *)appendDocumentDir {
+    return [self appendDir:[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]];
+}
+- (NSString *)appendCacheDir {
+    return [self appendDir:[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject]];
+}
+- (NSString *)appendTempDir {
+    return [self appendDir:NSTemporaryDirectory()];
+}
+/**
+ *  将当前字符串拼接到指定目录后面
+ *
+ *  @param dir 指定目录
+ *
+ *  @return 拼接好的路径
+ */
+- (NSString *)appendDir:(NSString *)dir { // docpath
+    return [dir stringByAppendingPathComponent:self];
+}
+
+#pragma mark - 聊天时间格式化
++ (NSString *)showTime:(NSTimeInterval)msglastTime showDetail:(BOOL)showDetail {
+    // 今天的时间
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:msglastTime];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US"];
+    if ([date isToday]) { // 今天
+        return [NSDate formate:date];
+    } else if ([date isYesterday]) { // 昨天
+        return [NSString stringWithFormat:@"昨天 %@",[NSDate formate:date]];
+    } else if ([date isThisYear]) {
+        formatter.dateFormat = @"MM月dd日";
+        return [NSString stringWithFormat:@"%@ %@",[formatter stringFromDate:date],[NSDate formate:date]];
+    } else {
+        formatter.dateFormat = @"yy年MM月dd日";
+        return [NSString stringWithFormat:@"%@ %@",[formatter stringFromDate:date],[NSDate formate:date]];
+    }
+}
+
++ (NSString *)getPeriodOfTime:(NSInteger)time withMinute:(NSInteger)minute {
+    NSInteger totalMin = time *60 + minute;
+    NSString *showPeriodOfTime = @"";
+    if (totalMin > 0 && totalMin <= 5 * 60) {
+        showPeriodOfTime = @"凌晨";
+    } else if (totalMin > 5 * 60 && totalMin < 12 * 60) {
+        showPeriodOfTime = @"上午";
+    } else if (totalMin >= 12 * 60 && totalMin <= 18 * 60) {
+        showPeriodOfTime = @"下午";
+    } else if ((totalMin > 18 * 60 && totalMin <= (23 * 60 + 59)) || totalMin == 0) {
+        showPeriodOfTime = @"晚上";
+    }
+    
+    return showPeriodOfTime;
+}
++ (NSString *)weekdayStr:(NSInteger)dayOfWeek {
+    static NSDictionary *daysOfWeekDict = nil;
+    daysOfWeekDict = @{@(1):@"星期日",
+                       @(2):@"星期一",
+                       @(3):@"星期二",
+                       @(4):@"星期三",
+                       @(5):@"星期四",
+                       @(6):@"星期五",
+                       @(7):@"星期六",};
+    return [daysOfWeekDict objectForKey:@(dayOfWeek)];
+}
+
+/**
+ *  将汉字转换为对应的拼音首字母并转为大写
+ */
++ (NSString *)phonetic:(NSString *)sourceString {
+    NSMutableString *source = [sourceString mutableCopy];
+    if(source && sourceString.length>0) {
+        CFRange range = CFRangeMake(0, 1);
+        CFStringTransform((__bridge CFMutableStringRef)source, &range, kCFStringTransformMandarinLatin, NO);
+        
+        CFStringTransform((__bridge CFMutableStringRef)source, &range, kCFStringTransformStripDiacritics, NO);
+        NSString *phonetic = source;
+        phonetic = [phonetic substringToIndex:1];
+        phonetic = [phonetic uppercaseString];
+        int temp = [phonetic characterAtIndex:0];
+        
+        if (temp < 65 || temp > 122 || (temp > 90 && temp < 97)) {
+            //不合法的title
+            phonetic = @"#";
+        } else {
+            phonetic = phonetic;
+        }
+        return phonetic;
+    } else {
+        return @"#";
+    }
+}
+
++ (BOOL)match:(NSString *)pattern text:(NSString *)text{
+    // 1.创建正则表达式
+    NSRegularExpression *regex = [[NSRegularExpression alloc] initWithPattern:pattern options:0 error:nil];
+    // 2.测试字符串
+    NSArray *results = [regex matchesInString:text options:0 range:NSMakeRange(0, text.length)];
+    
+    return results.count > 0;
+}
+
++ (NSString *)sc_stringDate {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"YYYY-MM-dd hh:mm:ss"];
+    NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+    return dateString;
+}
+
+/**
+ *  拼接字符串
+ */
++ (NSString *)sc_joiningTogetherStringWithFirstString:(NSString *)firstString space:(NSString *)space secondString:(NSString *)secondString thirdString:(NSString *)thirdString{
+    if (thirdString) {
+        NSString *firstStringAndSpace = [firstString stringByAppendingString:space];
+        NSString *lastString = [[firstStringAndSpace stringByAppendingString:secondString]stringByAppendingString:thirdString];
+        return lastString;
+    }else{
+        NSString *firstStringAndSpace = [firstString stringByAppendingString:space];
+        NSString *lastString = [firstStringAndSpace stringByAppendingString:secondString];
+        return lastString;
+    }
+    
+}
+
+/**
+ *  根据状态码返回汉字
+ */
++ (NSString *)sc_stateWithNumberString:(NSString *)str{
+    NSString *textString = str;
+    if ([textString isEqualToString:@"1"]) {
+        textString = @"未参会";
+    }else if ([textString isEqualToString:@"2"]){
+        textString = @"已参会";
+    }else if ([textString isEqualToString:@"3"]){
+        textString = @"待回执";
+    }else if ([textString isEqualToString:@"4"]){
+        textString = @"已回执";
+    }
+    return textString;
+}
+
+/**
+ *  手机号是否合法
+ */
+- (BOOL)phoneNumberIsMatch {
+    NSString *phoneRegex = @"[1][3578]\\d{9}";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
+    return [pred evaluateWithObject:self];
+}
+
+
+@end
