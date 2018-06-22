@@ -727,6 +727,104 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C615679520DCA91200B4F90E /* 15迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "15迭代器模式";
+			sourceTree = "<group>";
+		};
+		C615679620DCA91200B4F90E /* 12适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "12适配器模式";
+			sourceTree = "<group>";
+		};
+		C615679720DCA91200B4F90E /* 19职责链模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "19职责链模式";
+			sourceTree = "<group>";
+		};
+		C615679820DCA91300B4F90E /* 22解释器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "22解释器模式";
+			sourceTree = "<group>";
+		};
+		C615679920DCA91300B4F90E /* 14组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "14组合模式";
+			sourceTree = "<group>";
+		};
+		C615679A20DCA91300B4F90E /* 13备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "13备忘录模式";
+			sourceTree = "<group>";
+		};
+		C615679B20DCA91300B4F90E /* 24原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "24原型模式";
+			sourceTree = "<group>";
+		};
+		C615679C20DCA91300B4F90E /* 16单列模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "16单列模式";
+			sourceTree = "<group>";
+		};
+		C615679D20DCA91400B4F90E /* 20中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "20中介者模式";
+			sourceTree = "<group>";
+		};
+		C615679E20DCA91400B4F90E /* 23访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "23访问者模式";
+			sourceTree = "<group>";
+		};
+		C615679F20DCA91400B4F90E /* 17桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "17桥接模式";
+			sourceTree = "<group>";
+		};
+		C61567A020DCA91400B4F90E /* 18命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "18命令模式";
+			sourceTree = "<group>";
+		};
+		C61567A120DCA91400B4F90E /* 21享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "21享元模式";
+			sourceTree = "<group>";
+		};
+		C61567A220DCA96900B4F90E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		C6F8B27E20AD27E000E2E901 /* 12306测试 */ = {
 			isa = PBXGroup;
 			children = (
@@ -855,97 +953,6 @@
 				D600B8F11F7262150024411E /* YQZhuangTaiManager.m */,
 			);
 			path = "11状态模式";
-			sourceTree = "<group>";
-		};
-		D600B8961F6B85490024411E /* 12适配器模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "12适配器模式";
-			sourceTree = "<group>";
-		};
-		D600B8971F6B85490024411E /* 13备忘录模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "13备忘录模式";
-			sourceTree = "<group>";
-		};
-		D600B8981F6B85490024411E /* 14组合模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "14组合模式";
-			sourceTree = "<group>";
-		};
-		D600B8991F6B85490024411E /* 15迭代器模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "15迭代器模式";
-			sourceTree = "<group>";
-		};
-		D600B89A1F6B85490024411E /* 16单列模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "16单列模式";
-			sourceTree = "<group>";
-		};
-		D600B89B1F6B85490024411E /* 17桥接模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "17桥接模式";
-			sourceTree = "<group>";
-		};
-		D600B89C1F6B85490024411E /* 18命令模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "18命令模式";
-			sourceTree = "<group>";
-		};
-		D600B89D1F6B85490024411E /* 19职责链模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "19职责链模式";
-			sourceTree = "<group>";
-		};
-		D600B89E1F6B85490024411E /* 20中介者模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "20中介者模式";
-			sourceTree = "<group>";
-		};
-		D600B89F1F6B85490024411E /* 21享元模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "21享元模式";
-			sourceTree = "<group>";
-		};
-		D600B8A01F6B85490024411E /* 22解释器模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "22解释器模式";
-			sourceTree = "<group>";
-		};
-		D600B8A11F6B85490024411E /* 23访问者模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "23访问者模式";
-			sourceTree = "<group>";
-		};
-		D600B8A21F6B85490024411E /* 24原型模式 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "24原型模式";
 			sourceTree = "<group>";
 		};
 		D611205C1FC3CD11005ABACB /* 多线程 */ = {
@@ -1614,13 +1621,6 @@
 			path = "解析数据";
 			sourceTree = "<group>";
 		};
-		D6BF8F161FE8F05C00BBD727 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		D6BF8F381FEA59CA00BBD727 /* teacher */ = {
 			isa = PBXGroup;
 			children = (
@@ -1795,19 +1795,19 @@
 				D600B8931F6B85490024411E /* 9观察者模式 */,
 				D600B8941F6B85490024411E /* 10抽象工厂模式 */,
 				D600B8951F6B85490024411E /* 11状态模式 */,
-				D600B8961F6B85490024411E /* 12适配器模式 */,
-				D600B8971F6B85490024411E /* 13备忘录模式 */,
-				D600B8981F6B85490024411E /* 14组合模式 */,
-				D600B8991F6B85490024411E /* 15迭代器模式 */,
-				D600B89A1F6B85490024411E /* 16单列模式 */,
-				D600B89B1F6B85490024411E /* 17桥接模式 */,
-				D600B89C1F6B85490024411E /* 18命令模式 */,
-				D600B89D1F6B85490024411E /* 19职责链模式 */,
-				D600B89E1F6B85490024411E /* 20中介者模式 */,
-				D600B89F1F6B85490024411E /* 21享元模式 */,
-				D600B8A01F6B85490024411E /* 22解释器模式 */,
-				D600B8A11F6B85490024411E /* 23访问者模式 */,
-				D600B8A21F6B85490024411E /* 24原型模式 */,
+				C615679620DCA91200B4F90E /* 12适配器模式 */,
+				C615679A20DCA91300B4F90E /* 13备忘录模式 */,
+				C615679920DCA91300B4F90E /* 14组合模式 */,
+				C615679520DCA91200B4F90E /* 15迭代器模式 */,
+				C615679C20DCA91300B4F90E /* 16单列模式 */,
+				C615679F20DCA91400B4F90E /* 17桥接模式 */,
+				C61567A020DCA91400B4F90E /* 18命令模式 */,
+				C615679720DCA91200B4F90E /* 19职责链模式 */,
+				C615679D20DCA91400B4F90E /* 20中介者模式 */,
+				C61567A120DCA91400B4F90E /* 21享元模式 */,
+				C615679820DCA91300B4F90E /* 22解释器模式 */,
+				C615679E20DCA91400B4F90E /* 23访问者模式 */,
+				C615679B20DCA91300B4F90E /* 24原型模式 */,
 				D641A0431F272F4F005D678D /* UIPickerView */,
 				D641A0331F26E6DB005D678D /* 操作模型 */,
 				D6D191ED1EF775DA00379E77 /* 状态模式 */,
@@ -1853,7 +1853,7 @@
 		D6EB468E1E7FA88D00F245EA /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				D6BF8F161FE8F05C00BBD727 /* Tools */,
+				C61567A220DCA96900B4F90E /* Tools */,
 				D61EEE081F340AE400483761 /* HttpRequest */,
 				D61EEE041F34093B00483761 /* 扩展汇总 */,
 				D6D618441EAEFC2D00CF8BE2 /* NSDate */,
