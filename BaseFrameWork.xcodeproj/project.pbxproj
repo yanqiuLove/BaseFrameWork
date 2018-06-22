@@ -17,6 +17,20 @@
 		C6FAD45220DCE8C10032BF7F /* YQTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45120DCE8C10032BF7F /* YQTabBarButton.m */; };
 		C6FAD45620DCEEB70032BF7F /* YQMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45520DCEEB70032BF7F /* YQMenuView.m */; };
 		C6FAD45920DCEF300032BF7F /* YQMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45820DCEF300032BF7F /* YQMenuViewController.m */; };
+		C6FAD45C20DCF4630032BF7F /* YQShiPeiQiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45B20DCF4630032BF7F /* YQShiPeiQiViewController.m */; };
+		C6FAD45F20DCF46F0032BF7F /* YQBeiWangLuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD45E20DCF46F0032BF7F /* YQBeiWangLuViewController.m */; };
+		C6FAD46220DCF47A0032BF7F /* YQZuHeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD46120DCF47A0032BF7F /* YQZuHeViewController.m */; };
+		C6FAD46520DCF4870032BF7F /* YQDieDaiQiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD46420DCF4870032BF7F /* YQDieDaiQiViewController.m */; };
+		C6FAD46820DCF48F0032BF7F /* YQDanLiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD46720DCF48F0032BF7F /* YQDanLiViewController.m */; };
+		C6FAD46B20DCF49B0032BF7F /* YQQiaoLianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD46A20DCF49B0032BF7F /* YQQiaoLianViewController.m */; };
+		C6FAD46E20DCF4A30032BF7F /* YQMingLingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD46D20DCF4A30032BF7F /* YQMingLingViewController.m */; };
+		C6FAD47120DCF4AD0032BF7F /* YQZhiZeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD47020DCF4AD0032BF7F /* YQZhiZeViewController.m */; };
+		C6FAD47420DCF4B90032BF7F /* YQZhongJieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD47320DCF4B90032BF7F /* YQZhongJieViewController.m */; };
+		C6FAD47720DCF4C40032BF7F /* YQXiangYuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD47620DCF4C40032BF7F /* YQXiangYuanViewController.m */; };
+		C6FAD47A20DCF4CD0032BF7F /* YQJieShiQiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD47920DCF4CD0032BF7F /* YQJieShiQiViewController.m */; };
+		C6FAD47D20DCF4D80032BF7F /* YQFangWenZheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD47C20DCF4D80032BF7F /* YQFangWenZheViewController.m */; };
+		C6FAD48020DCF4E10032BF7F /* YQYuanXingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD47F20DCF4E10032BF7F /* YQYuanXingViewController.m */; };
+		C6FAD48320DCF4F20032BF7F /* YQGongJuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD48220DCF4F20032BF7F /* YQGongJuViewController.m */; };
 		D600B8851F6B752D0024411E /* YQPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D600B8841F6B752D0024411E /* YQPerson.m */; };
 		D600B8881F6B76570024411E /* YQZhuangShi.m in Sources */ = {isa = PBXBuildFile; fileRef = D600B8871F6B76570024411E /* YQZhuangShi.m */; };
 		D600B88B1F6B76DB0024411E /* YQShangYi.m in Sources */ = {isa = PBXBuildFile; fileRef = D600B88A1F6B76DB0024411E /* YQShangYi.m */; };
@@ -283,6 +297,34 @@
 		C6FAD45520DCEEB70032BF7F /* YQMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQMenuView.m; sourceTree = "<group>"; };
 		C6FAD45720DCEF300032BF7F /* YQMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQMenuViewController.h; sourceTree = "<group>"; };
 		C6FAD45820DCEF300032BF7F /* YQMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQMenuViewController.m; sourceTree = "<group>"; };
+		C6FAD45A20DCF4630032BF7F /* YQShiPeiQiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQShiPeiQiViewController.h; sourceTree = "<group>"; };
+		C6FAD45B20DCF4630032BF7F /* YQShiPeiQiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQShiPeiQiViewController.m; sourceTree = "<group>"; };
+		C6FAD45D20DCF46F0032BF7F /* YQBeiWangLuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBeiWangLuViewController.h; sourceTree = "<group>"; };
+		C6FAD45E20DCF46F0032BF7F /* YQBeiWangLuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBeiWangLuViewController.m; sourceTree = "<group>"; };
+		C6FAD46020DCF47A0032BF7F /* YQZuHeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQZuHeViewController.h; sourceTree = "<group>"; };
+		C6FAD46120DCF47A0032BF7F /* YQZuHeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQZuHeViewController.m; sourceTree = "<group>"; };
+		C6FAD46320DCF4870032BF7F /* YQDieDaiQiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQDieDaiQiViewController.h; sourceTree = "<group>"; };
+		C6FAD46420DCF4870032BF7F /* YQDieDaiQiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQDieDaiQiViewController.m; sourceTree = "<group>"; };
+		C6FAD46620DCF48F0032BF7F /* YQDanLiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQDanLiViewController.h; sourceTree = "<group>"; };
+		C6FAD46720DCF48F0032BF7F /* YQDanLiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQDanLiViewController.m; sourceTree = "<group>"; };
+		C6FAD46920DCF49B0032BF7F /* YQQiaoLianViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQQiaoLianViewController.h; sourceTree = "<group>"; };
+		C6FAD46A20DCF49B0032BF7F /* YQQiaoLianViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQQiaoLianViewController.m; sourceTree = "<group>"; };
+		C6FAD46C20DCF4A30032BF7F /* YQMingLingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQMingLingViewController.h; sourceTree = "<group>"; };
+		C6FAD46D20DCF4A30032BF7F /* YQMingLingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQMingLingViewController.m; sourceTree = "<group>"; };
+		C6FAD46F20DCF4AD0032BF7F /* YQZhiZeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQZhiZeViewController.h; sourceTree = "<group>"; };
+		C6FAD47020DCF4AD0032BF7F /* YQZhiZeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQZhiZeViewController.m; sourceTree = "<group>"; };
+		C6FAD47220DCF4B90032BF7F /* YQZhongJieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQZhongJieViewController.h; sourceTree = "<group>"; };
+		C6FAD47320DCF4B90032BF7F /* YQZhongJieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQZhongJieViewController.m; sourceTree = "<group>"; };
+		C6FAD47520DCF4C40032BF7F /* YQXiangYuanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQXiangYuanViewController.h; sourceTree = "<group>"; };
+		C6FAD47620DCF4C40032BF7F /* YQXiangYuanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQXiangYuanViewController.m; sourceTree = "<group>"; };
+		C6FAD47820DCF4CD0032BF7F /* YQJieShiQiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQJieShiQiViewController.h; sourceTree = "<group>"; };
+		C6FAD47920DCF4CD0032BF7F /* YQJieShiQiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQJieShiQiViewController.m; sourceTree = "<group>"; };
+		C6FAD47B20DCF4D80032BF7F /* YQFangWenZheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFangWenZheViewController.h; sourceTree = "<group>"; };
+		C6FAD47C20DCF4D80032BF7F /* YQFangWenZheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFangWenZheViewController.m; sourceTree = "<group>"; };
+		C6FAD47E20DCF4E10032BF7F /* YQYuanXingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQYuanXingViewController.h; sourceTree = "<group>"; };
+		C6FAD47F20DCF4E10032BF7F /* YQYuanXingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQYuanXingViewController.m; sourceTree = "<group>"; };
+		C6FAD48120DCF4F20032BF7F /* YQGongJuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQGongJuViewController.h; sourceTree = "<group>"; };
+		C6FAD48220DCF4F20032BF7F /* YQGongJuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQGongJuViewController.m; sourceTree = "<group>"; };
 		D600B8831F6B752D0024411E /* YQPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPerson.h; sourceTree = "<group>"; };
 		D600B8841F6B752D0024411E /* YQPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPerson.m; sourceTree = "<group>"; };
 		D600B8861F6B76570024411E /* YQZhuangShi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQZhuangShi.h; sourceTree = "<group>"; };
@@ -748,6 +790,8 @@
 		C615679520DCA91200B4F90E /* 15迭代器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD46320DCF4870032BF7F /* YQDieDaiQiViewController.h */,
+				C6FAD46420DCF4870032BF7F /* YQDieDaiQiViewController.m */,
 			);
 			path = "15迭代器模式";
 			sourceTree = "<group>";
@@ -755,6 +799,8 @@
 		C615679620DCA91200B4F90E /* 12适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD45A20DCF4630032BF7F /* YQShiPeiQiViewController.h */,
+				C6FAD45B20DCF4630032BF7F /* YQShiPeiQiViewController.m */,
 			);
 			path = "12适配器模式";
 			sourceTree = "<group>";
@@ -762,6 +808,8 @@
 		C615679720DCA91200B4F90E /* 19职责链模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD46F20DCF4AD0032BF7F /* YQZhiZeViewController.h */,
+				C6FAD47020DCF4AD0032BF7F /* YQZhiZeViewController.m */,
 			);
 			path = "19职责链模式";
 			sourceTree = "<group>";
@@ -769,6 +817,8 @@
 		C615679820DCA91300B4F90E /* 22解释器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD47820DCF4CD0032BF7F /* YQJieShiQiViewController.h */,
+				C6FAD47920DCF4CD0032BF7F /* YQJieShiQiViewController.m */,
 			);
 			path = "22解释器模式";
 			sourceTree = "<group>";
@@ -776,6 +826,8 @@
 		C615679920DCA91300B4F90E /* 14组合模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD46020DCF47A0032BF7F /* YQZuHeViewController.h */,
+				C6FAD46120DCF47A0032BF7F /* YQZuHeViewController.m */,
 			);
 			path = "14组合模式";
 			sourceTree = "<group>";
@@ -783,6 +835,8 @@
 		C615679A20DCA91300B4F90E /* 13备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD45D20DCF46F0032BF7F /* YQBeiWangLuViewController.h */,
+				C6FAD45E20DCF46F0032BF7F /* YQBeiWangLuViewController.m */,
 			);
 			path = "13备忘录模式";
 			sourceTree = "<group>";
@@ -790,6 +844,8 @@
 		C615679B20DCA91300B4F90E /* 24原型模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD47E20DCF4E10032BF7F /* YQYuanXingViewController.h */,
+				C6FAD47F20DCF4E10032BF7F /* YQYuanXingViewController.m */,
 			);
 			path = "24原型模式";
 			sourceTree = "<group>";
@@ -797,6 +853,8 @@
 		C615679C20DCA91300B4F90E /* 16单列模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD46620DCF48F0032BF7F /* YQDanLiViewController.h */,
+				C6FAD46720DCF48F0032BF7F /* YQDanLiViewController.m */,
 			);
 			path = "16单列模式";
 			sourceTree = "<group>";
@@ -804,6 +862,8 @@
 		C615679D20DCA91400B4F90E /* 20中介者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD47220DCF4B90032BF7F /* YQZhongJieViewController.h */,
+				C6FAD47320DCF4B90032BF7F /* YQZhongJieViewController.m */,
 			);
 			path = "20中介者模式";
 			sourceTree = "<group>";
@@ -811,6 +871,8 @@
 		C615679E20DCA91400B4F90E /* 23访问者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD47B20DCF4D80032BF7F /* YQFangWenZheViewController.h */,
+				C6FAD47C20DCF4D80032BF7F /* YQFangWenZheViewController.m */,
 			);
 			path = "23访问者模式";
 			sourceTree = "<group>";
@@ -818,6 +880,8 @@
 		C615679F20DCA91400B4F90E /* 17桥接模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD46920DCF49B0032BF7F /* YQQiaoLianViewController.h */,
+				C6FAD46A20DCF49B0032BF7F /* YQQiaoLianViewController.m */,
 			);
 			path = "17桥接模式";
 			sourceTree = "<group>";
@@ -825,6 +889,8 @@
 		C61567A020DCA91400B4F90E /* 18命令模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD46C20DCF4A30032BF7F /* YQMingLingViewController.h */,
+				C6FAD46D20DCF4A30032BF7F /* YQMingLingViewController.m */,
 			);
 			path = "18命令模式";
 			sourceTree = "<group>";
@@ -832,6 +898,8 @@
 		C61567A120DCA91400B4F90E /* 21享元模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD47520DCF4C40032BF7F /* YQXiangYuanViewController.h */,
+				C6FAD47620DCF4C40032BF7F /* YQXiangYuanViewController.m */,
 			);
 			path = "21享元模式";
 			sourceTree = "<group>";
@@ -839,6 +907,8 @@
 		C61567A220DCA96900B4F90E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C6FAD48120DCF4F20032BF7F /* YQGongJuViewController.h */,
+				C6FAD48220DCF4F20032BF7F /* YQGongJuViewController.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -2229,6 +2299,7 @@
 				D67052541EA5E2A700565BCB /* UIColor+WJ.m in Sources */,
 				C6F8B28120AD27F600E2E901 /* YQ12306ViewController.m in Sources */,
 				D6BF8F0A1FE8BBDF00BBD727 /* JieXiShuJuViewController.m in Sources */,
+				C6FAD47120DCF4AD0032BF7F /* YQZhiZeViewController.m in Sources */,
 				D600B8E51F724B2B0024411E /* YQChouXiangGongChangViewController.m in Sources */,
 				D63D95921FFE364F00FFC462 /* ZFLine.m in Sources */,
 				D6E0D2001F6929BA00F123B5 /* YQJiaFa.m in Sources */,
@@ -2250,6 +2321,7 @@
 				C6FAD44C20DCE59F0032BF7F /* YQTabBar.m in Sources */,
 				D600B8C71F71FF3C0024411E /* YQPersonThinBuilder.m in Sources */,
 				D62F36B51F3C40D1004EF6C8 /* YQTextView.m in Sources */,
+				C6FAD46520DCF4870032BF7F /* YQDieDaiQiViewController.m in Sources */,
 				D6EE17FA1FD1312300191EC3 /* YQHouse.m in Sources */,
 				D63D95901FFE364F00FFC462 /* ZFLineChart.m in Sources */,
 				D6EE186A1FD5549000191EC3 /* YQUserModel.m in Sources */,
@@ -2264,14 +2336,17 @@
 				D600B8AE1F6BBE200024411E /* YQCopyA.m in Sources */,
 				D600B88E1F6B76E90024411E /* YQXiaYi.m in Sources */,
 				D61EEE221F340AE400483761 /* SCBaseResultArray.m in Sources */,
+				C6FAD48320DCF4F20032BF7F /* YQGongJuViewController.m in Sources */,
 				D61134011E825533008BF2C4 /* LXAlertView.m in Sources */,
 				D600B8B71F6FDACA0024411E /* YQWaiGuanMoShiViewController.m in Sources */,
 				D66FB66B1F38703F00FB37A6 /* YQFactoryStateViewController.m in Sources */,
 				D6EE17F01FCD014000191EC3 /* YQRunLoopViewController.m in Sources */,
+				C6FAD46820DCF48F0032BF7F /* YQDanLiViewController.m in Sources */,
 				D6A21D691FFCBB7500DC5DC0 /* RadarMapView.m in Sources */,
 				D63D958F1FFE364F00FFC462 /* ZFTranslucencePath.m in Sources */,
 				D600B8EF1F7262040024411E /* YQZhuangTaiTow.m in Sources */,
 				D63D95941FFE364F00FFC462 /* ZFYAxisLine.m in Sources */,
+				C6FAD47720DCF4C40032BF7F /* YQXiangYuanViewController.m in Sources */,
 				D61EEE201F340AE400483761 /* SCBaseParam.m in Sources */,
 				D61134091E82556E008BF2C4 /* NSObject+XWAdd.m in Sources */,
 				D600B8EC1F7261EF0024411E /* YQZhuangTaiOne.m in Sources */,
@@ -2298,10 +2373,12 @@
 				D63F9D491FDA2D7F0024F610 /* DCPathCenterButton.m in Sources */,
 				D63D95851FFE364F00FFC462 /* UIColor+Zirkfied.m in Sources */,
 				D63D958B1FFE364F00FFC462 /* ZFConst.m in Sources */,
+				C6FAD48020DCF4E10032BF7F /* YQYuanXingViewController.m in Sources */,
 				D6EB46931E7FAA4900F245EA /* SCConstString.m in Sources */,
 				D611340D1E8263FA008BF2C4 /* TestModel.m in Sources */,
 				D62F36BE1F3D47D8004EF6C8 /* YQTextModel.m in Sources */,
 				D611205F1FC3CEF0005ABACB /* YQDuoXianChengViewController.m in Sources */,
+				C6FAD46B20DCF49B0032BF7F /* YQQiaoLianViewController.m in Sources */,
 				D641A0491F272FED005D678D /* YQPickerViewController.m in Sources */,
 				D63D95931FFE364F00FFC462 /* ZFXAxisLine.m in Sources */,
 				D600B8B11F6BBE2B0024411E /* YQCopyB.m in Sources */,
@@ -2309,6 +2386,7 @@
 				D63D95881FFE364F00FFC462 /* ZFCirqueChart.m in Sources */,
 				D6BF8F311FE9082600BBD727 /* YQPhoneBaseModel.m in Sources */,
 				D6D4EC64201732F60073CEAC /* JKDBHelper.m in Sources */,
+				C6FAD46E20DCF4A30032BF7F /* YQMingLingViewController.m in Sources */,
 				D600B8DF1F7202790024411E /* YQBuilderPersonManager.m in Sources */,
 				D600B8881F6B76570024411E /* YQZhuangShi.m in Sources */,
 				D67052741EA8916200565BCB /* Man.m in Sources */,
@@ -2325,6 +2403,7 @@
 				D61134081E82556E008BF2C4 /* NSObject+Util.m in Sources */,
 				D6E9F0981F5D80AE005419B4 /* YQKnowledgeViewController.m in Sources */,
 				D63D959E1FFE364F00FFC462 /* ZFWave.m in Sources */,
+				C6FAD47D20DCF4D80032BF7F /* YQFangWenZheViewController.m in Sources */,
 				D641A03F1F26E97E005D678D /* YQCeShiModel.m in Sources */,
 				D600B8E21F7239D60024411E /* YQGuanChaZheMoShiViewController.m in Sources */,
 				D600B8F21F7262150024411E /* YQZhuangTaiManager.m in Sources */,
@@ -2333,6 +2412,7 @@
 				D6D4EC5A2017321A0073CEAC /* TEEEEE.m in Sources */,
 				D6D618431EAEFBD000CF8BE2 /* NSString+ZF.m in Sources */,
 				D600B8C31F70C7D70024411E /* YQJianZaoZheMoShiViewController.m in Sources */,
+				C6FAD45F20DCF46F0032BF7F /* YQBeiWangLuViewController.m in Sources */,
 				D62F36BB1F3C6172004EF6C8 /* YQOptionModel.m in Sources */,
 				D6AB55DE202985AE00F7C41E /* YQNewUserGuidViewController.m in Sources */,
 				D61EEE071F34093B00483761 /* UIImage+Extension.m in Sources */,
@@ -2346,6 +2426,7 @@
 				D6BF8F341FE9083400BBD727 /* YQDataModel.m in Sources */,
 				D670527B1EA8C57700565BCB /* GuideViewController.m in Sources */,
 				D600B8AB1F6BBDCF0024411E /* YQMoBanSuper.m in Sources */,
+				C6FAD45C20DCF4630032BF7F /* YQShiPeiQiViewController.m in Sources */,
 				D6A21D681FFCBB7500DC5DC0 /* RaderMapCompleteView.m in Sources */,
 				D6E0D2101F6A139600F123B5 /* YQDaZhe.m in Sources */,
 				D63D958A1FFE364F00FFC462 /* ZFHorizontalAxis.m in Sources */,
@@ -2360,6 +2441,7 @@
 				D600B8BD1F70C33A0024411E /* YQWaiGuan1.m in Sources */,
 				D6AB55DB2029859300F7C41E /* ZWMGuideView.m in Sources */,
 				D6E0D21B1F6A6C3B00F123B5 /* YQZhuangShiMoShiViewController.m in Sources */,
+				C6FAD47A20DCF4CD0032BF7F /* YQJieShiQiViewController.m in Sources */,
 				C6FAD45620DCEEB70032BF7F /* YQMenuView.m in Sources */,
 				D6BF8F891FECAA1900BBD727 /* SMMenuButton.m in Sources */,
 				D63F9D3B1FD7D46D0024F610 /* YQClassModel.m in Sources */,
@@ -2374,6 +2456,7 @@
 				D600B8D91F7201780024411E /* YQLegLeft.m in Sources */,
 				D63D958E1FFE364F00FFC462 /* ZFPie.m in Sources */,
 				D615219B1F346610002278AE /* YQSecondModel.m in Sources */,
+				C6FAD47420DCF4B90032BF7F /* YQZhongJieViewController.m in Sources */,
 				D6D618471EAEFC2D00CF8BE2 /* NSDate+Util.m in Sources */,
 				D67052531EA5E2A700565BCB /* UIColor+Util.m in Sources */,
 				D6AB55CF20286BD800F7C41E /* NSArray+Log.m in Sources */,
@@ -2396,6 +2479,7 @@
 				D63D95A01FFE364F00FFC462 /* ZFHorizontalBar.m in Sources */,
 				D6BF8F8D1FECAA5900BBD727 /* YQShiYongViewController.m in Sources */,
 				C6FAD45220DCE8C10032BF7F /* YQTabBarButton.m in Sources */,
+				C6FAD46220DCF47A0032BF7F /* YQZuHeViewController.m in Sources */,
 				D67052421EA4D43100565BCB /* Cat.m in Sources */,
 				D670523C1EA4D41200565BCB /* Animal.m in Sources */,
 				D615219F1F34662C002278AE /* MJExtensionViewController.m in Sources */,
