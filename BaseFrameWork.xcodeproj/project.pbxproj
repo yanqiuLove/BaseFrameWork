@@ -919,16 +919,16 @@
 			isa = PBXGroup;
 			children = (
 				C6FAD49220DCF76B0032BF7F /* YQCeLueMoShiViewController.h */,
-				C6FAD49320DCF76B0032BF7F /* YQYuanJia.h */,
-				C6FAD49420DCF76B0032BF7F /* YQDaZhe.h */,
-				C6FAD49520DCF76B0032BF7F /* YQShouFei.h */,
-				C6FAD49620DCF76B0032BF7F /* YQManJian.h */,
-				C6FAD49720DCF76B0032BF7F /* YQFactoryMoney.m */,
 				C6FAD49820DCF76B0032BF7F /* YQCeLueMoShiViewController.m */,
+				C6FAD49520DCF76B0032BF7F /* YQShouFei.h */,
+				C6FAD49320DCF76B0032BF7F /* YQYuanJia.h */,
 				C6FAD49920DCF76B0032BF7F /* YQYuanJia.m */,
+				C6FAD49420DCF76B0032BF7F /* YQDaZhe.h */,
 				C6FAD49A20DCF76B0032BF7F /* YQDaZhe.m */,
-				C6FAD49B20DCF76B0032BF7F /* YQFactoryMoney.h */,
+				C6FAD49620DCF76B0032BF7F /* YQManJian.h */,
 				C6FAD49C20DCF76B0032BF7F /* YQManJian.m */,
+				C6FAD49720DCF76B0032BF7F /* YQFactoryMoney.m */,
+				C6FAD49B20DCF76B0032BF7F /* YQFactoryMoney.h */,
 			);
 			path = "策略模式";
 			sourceTree = "<group>";
@@ -1051,15 +1051,15 @@
 		C6FAD4D420DCF76B0032BF7F /* 状态模式 */ = {
 			isa = PBXGroup;
 			children = (
-				C6FAD4D520DCF76B0032BF7F /* YQStatePatternViewController.m */,
-				C6FAD4D620DCF76B0032BF7F /* YQFirstState.m */,
-				C6FAD4D720DCF76B0032BF7F /* YQStateManager.h */,
-				C6FAD4D820DCF76B0032BF7F /* YQSecondState.m */,
-				C6FAD4D920DCF76B0032BF7F /* YQStateDelegate.h */,
 				C6FAD4DA20DCF76B0032BF7F /* YQStatePatternViewController.h */,
-				C6FAD4DB20DCF76B0032BF7F /* YQFirstState.h */,
-				C6FAD4DC20DCF76B0032BF7F /* YQSecondState.h */,
+				C6FAD4D520DCF76B0032BF7F /* YQStatePatternViewController.m */,
+				C6FAD4D920DCF76B0032BF7F /* YQStateDelegate.h */,
+				C6FAD4D720DCF76B0032BF7F /* YQStateManager.h */,
 				C6FAD4DD20DCF76B0032BF7F /* YQStateManager.m */,
+				C6FAD4DB20DCF76B0032BF7F /* YQFirstState.h */,
+				C6FAD4D620DCF76B0032BF7F /* YQFirstState.m */,
+				C6FAD4DC20DCF76B0032BF7F /* YQSecondState.h */,
+				C6FAD4D820DCF76B0032BF7F /* YQSecondState.m */,
 			);
 			path = "状态模式";
 			sourceTree = "<group>";
@@ -1068,11 +1068,11 @@
 			isa = PBXGroup;
 			children = (
 				C6FAD4DF20DCF76B0032BF7F /* YQZhuangShi.h */,
+				C6FAD4E420DCF76B0032BF7F /* YQZhuangShiMoShiViewController.h */,
 				C6FAD4E020DCF76B0032BF7F /* YQZhuangShiMoShiViewController.m */,
 				C6FAD4E120DCF76B0032BF7F /* YQPerson.m */,
 				C6FAD4E220DCF76B0032BF7F /* YQXiaYi.h */,
 				C6FAD4E320DCF76B0032BF7F /* YQShangYi.h */,
-				C6FAD4E420DCF76B0032BF7F /* YQZhuangShiMoShiViewController.h */,
 				C6FAD4E520DCF76B0032BF7F /* YQZhuangShi.m */,
 				C6FAD4E620DCF76B0032BF7F /* YQPerson.h */,
 				C6FAD4E720DCF76B0032BF7F /* YQShangYi.m */,
@@ -1163,15 +1163,15 @@
 		C6FAD50820DCF76B0032BF7F /* 工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				C6FAD50920DCF76B0032BF7F /* YQJiaFa.m */,
-				C6FAD50A20DCF76B0032BF7F /* YQFactoryStateViewController.m */,
-				C6FAD50B20DCF76B0032BF7F /* YQYunSuanFu.h */,
-				C6FAD50C20DCF76B0032BF7F /* YQJianFa.m */,
-				C6FAD50D20DCF76B0032BF7F /* YQJiaFa.h */,
 				C6FAD50E20DCF76B0032BF7F /* YQFactoryStateViewController.h */,
-				C6FAD50F20DCF76B0032BF7F /* YQYunSuanFu.m */,
+				C6FAD50A20DCF76B0032BF7F /* YQFactoryStateViewController.m */,
 				C6FAD51020DCF76B0032BF7F /* YQJiSuanQi.h */,
+				C6FAD50B20DCF76B0032BF7F /* YQYunSuanFu.h */,
+				C6FAD50F20DCF76B0032BF7F /* YQYunSuanFu.m */,
+				C6FAD50D20DCF76B0032BF7F /* YQJiaFa.h */,
+				C6FAD50920DCF76B0032BF7F /* YQJiaFa.m */,
 				C6FAD51120DCF76B0032BF7F /* YQJianFa.h */,
+				C6FAD50C20DCF76B0032BF7F /* YQJianFa.m */,
 			);
 			path = "工厂模式";
 			sourceTree = "<group>";

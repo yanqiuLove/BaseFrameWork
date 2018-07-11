@@ -107,7 +107,7 @@
 #import <CocoaLumberjack.h>
 
 
-#define controllerName YQMenuViewController
+#define controllerName YQTextAnimationViewController
 
 
 

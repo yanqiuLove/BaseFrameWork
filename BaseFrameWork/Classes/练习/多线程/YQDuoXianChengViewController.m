@@ -16,6 +16,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor cyanColor];
+//    dispatch_queue_t queue = dispatch_queue_create("queueName", DISPATCH_QUEUE_CONCURRENT);
+//    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_queue_t queue = dispatch_queue_create("queueName", DISPATCH_QUEUE_SERIAL);
+//    dispatch_queue_t queue = dispatch_queue_create("queueName", NULL);
+    dispatch_sync(queue, ^{
+        SCLog(@"打印异步");
+    });
+    dispatch_sync(queue, ^{
+        SCLog(@"打印同步");
+    });
     
 }
 /**

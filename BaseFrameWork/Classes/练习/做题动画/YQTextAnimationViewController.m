@@ -45,20 +45,20 @@ static NSString *cellIdentifier = @"YQTextAnimationCell";
                                             @"optionArray":@[
                                                     
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123"
+                                                        @"optionId":@"1",
+                                                        @"optionContent":@"1"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"1234"
+                                                        @"optionId":@"1",
+                                                        @"optionContent":@"1"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"12345"
+                                                        @"optionId":@"1",
+                                                        @"optionContent":@"1"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123456"
+                                                        @"optionId":@"1",
+                                                        @"optionContent":@"1"
                                                         }
                                                     
                                                     ],
@@ -72,20 +72,20 @@ static NSString *cellIdentifier = @"YQTextAnimationCell";
                                             @"optionArray":@[
                                                     
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123"
+                                                        @"optionId":@"2",
+                                                        @"optionContent":@"2"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"1234"
+                                                        @"optionId":@"2",
+                                                        @"optionContent":@"2"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"12345"
+                                                        @"optionId":@"2",
+                                                        @"optionContent":@"2"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123456"
+                                                        @"optionId":@"2",
+                                                        @"optionContent":@"2"
                                                         }
                                                     
                                                     ],
@@ -99,20 +99,20 @@ static NSString *cellIdentifier = @"YQTextAnimationCell";
                                             @"optionArray":@[
                                                     
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123"
+                                                        @"optionId":@"3",
+                                                        @"optionContent":@"3"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"1234"
+                                                        @"optionId":@"3",
+                                                        @"optionContent":@"3"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"12345"
+                                                        @"optionId":@"3",
+                                                        @"optionContent":@"3"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123456"
+                                                        @"optionId":@"3",
+                                                        @"optionContent":@"3"
                                                         }
                                                     
                                                     ],
@@ -126,20 +126,20 @@ static NSString *cellIdentifier = @"YQTextAnimationCell";
                                             @"optionArray":@[
                                                     
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123"
+                                                        @"optionId":@"4",
+                                                        @"optionContent":@"4"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"1234"
+                                                        @"optionId":@"4",
+                                                        @"optionContent":@"4"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"12345"
+                                                        @"optionId":@"4",
+                                                        @"optionContent":@"4"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123456"
+                                                        @"optionId":@"4",
+                                                        @"optionContent":@"4"
                                                         }
                                                     
                                                     ],
@@ -153,20 +153,20 @@ static NSString *cellIdentifier = @"YQTextAnimationCell";
                                             @"optionArray":@[
                                                     
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123"
+                                                        @"optionId":@"5",
+                                                        @"optionContent":@"5"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"1234"
+                                                        @"optionId":@"5",
+                                                        @"optionContent":@"5"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"12345"
+                                                        @"optionId":@"5",
+                                                        @"optionContent":@"5"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123456"
+                                                        @"optionId":@"5",
+                                                        @"optionContent":@"5"
                                                         }
                                                     
                                                     ],
@@ -179,20 +179,20 @@ static NSString *cellIdentifier = @"YQTextAnimationCell";
                                             @"optionArray":@[
                                                     
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123"
+                                                        @"optionId":@"6",
+                                                        @"optionContent":@"6"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"1234"
+                                                        @"optionId":@"6",
+                                                        @"optionContent":@"6"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"12345"
+                                                        @"optionId":@"6",
+                                                        @"optionContent":@"6"
                                                         },
                                                     @{
-                                                        @"optionId":@"0",
-                                                        @"optionContent":@"123456"
+                                                        @"optionId":@"6",
+                                                        @"optionContent":@"6"
                                                         }
                                                     
                                                     ],
