@@ -34,6 +34,7 @@
 #import "DDLegacyMacros.h"
 #import <MJExtension.h>
 #import "NSString+Util.h"
+#import <AvoidCrash.h>
 
 
 #define MAS_SHORTHAND

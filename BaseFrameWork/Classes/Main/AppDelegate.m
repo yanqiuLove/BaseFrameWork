@@ -107,7 +107,7 @@
 #import <CocoaLumberjack.h>
 
 
-#define controllerName YQTextAnimationViewController
+#define controllerName MJExtensionViewController
 
 
 
@@ -126,6 +126,10 @@
 //    DDLogInfo(@"提示信息"); // 默认是黑色
 //    DDLogVerbose(@"详细信息"); // 默认是黑色
 //    DDLog同时支持自定义日志的颜色.
+    /** 抓取崩溃信息 */
+    [AvoidCrash makeAllEffective];
+    //监听通知:AvoidCrashNotification, 获取AvoidCrash捕获的崩溃日志的详细信息
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealwithCrashMessage:) name:AvoidCrashNotification object:nil];
     
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
@@ -142,7 +146,11 @@
     
     return YES;
 }
-
+- (void)dealwithCrashMessage:(NSNotification *)note {
+    //注意:所有的信息都在userInfo中
+    //你可以在这里收集相应的崩溃信息进行相应的处理(比如传到自己服务器)
+    SCLog(@"%@",note.userInfo);
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {}
 - (void)applicationDidEnterBackground:(UIApplication *)application {}

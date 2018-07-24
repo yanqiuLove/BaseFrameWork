@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - AvoidCrash (2.5.2)
   - CocoaLumberjack (3.1.0):
     - CocoaLumberjack/Default (= 3.1.0)
     - CocoaLumberjack/Extensions (= 3.1.0)
@@ -40,6 +41,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - AvoidCrash
   - CocoaLumberjack
   - CYLTabBarController
   - FDFullscreenPopGesture
@@ -57,6 +59,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
@@ -72,6 +75,6 @@ SPEC CHECKSUMS:
   UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
 
-PODFILE CHECKSUM: 122d4a85589a229ca67595647b0ec01b3543aef9
+PODFILE CHECKSUM: 5413e25e79ee73704205d69e3fcbb631014aaa92
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0

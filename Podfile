@@ -16,4 +16,5 @@ target 'BaseFrameWork' do
     pod 'PINCache'
     pod 'CocoaLumberjack'
     pod 'UITableView+FDTemplateLayoutCell'
+    pod 'AvoidCrash'
 end
