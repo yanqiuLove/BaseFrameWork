@@ -25,12 +25,37 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    //模型属性中有数组，数组中又有模型，模型的属性中又有一层模型
-    [self getRequestData];
-    /** json字符串转模型 */
-    [self jsonStrModel];
-    /** JSON array -> model array【将一个字典数组转成模型数组】 */
-    [self jsonArrModelArr];
+    UILabel *testLabel = [[UILabel alloc]initWithFrame:CGRectMake(20, 200, 300, 30)];
+    NSString *title = @"公众号•教师专业发展平台";
+    NSMutableAttributedString *attString = [[NSMutableAttributedString alloc] initWithString:title];
+    [attString addAttribute:NSForegroundColorAttributeName value:[UIColor orangeColor] range:NSMakeRange(0, title.length)];
+    [attString addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:[title rangeOfString:@"教师专业发展平台"]];
+    
+    [attString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:8] range:NSMakeRange(0, 3)];
+    
+    
+    /*!
+     NSBaselineOffsetAttributeName 设置基线偏移值。取值为NSNumber （float），正值上偏，负值下偏
+     */
+    [attString addAttribute:NSBaselineOffsetAttributeName value:@(2) range:NSMakeRange(0, 3)];
+    
+    
+    [attString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:13] range:NSMakeRange(3, title.length - 3)];
+    
+    testLabel.attributedText = attString;
+    
+    [self.view addSubview:testLabel];
+    
+    
+    
+    
+    
+//    //模型属性中有数组，数组中又有模型，模型的属性中又有一层模型
+//    [self getRequestData];
+//    /** json字符串转模型 */
+//    [self jsonStrModel];
+//    /** JSON array -> model array【将一个字典数组转成模型数组】 */
+//    [self jsonArrModelArr];
     
 }
 /** 模型属性中有数组，数组中又有模型，模型的属性中又有一层模型 */
