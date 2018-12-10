@@ -7,7 +7,6 @@
 //
 
 #import "ZCCCircleProgressView.h"
-#import "UIView+EXTENSION.h"
 
 @interface ZCCCircleProgressView()
 
@@ -31,7 +30,7 @@
 - (void)setColorsArray:(NSArray *)colorsArray {
     _colorsArray = colorsArray;
     // 圆路径
-    UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.width / 2, self.height / 2) radius:(self.width - 20)/2 startAngle:M_PI + M_PI / 2 endAngle:M_PI / 2 + M_PI*3 clockwise:YES];
+    UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.sc_width / 2, self.sc_height / 2) radius:(self.sc_width - 20)/2 startAngle:M_PI + M_PI / 2 endAngle:M_PI / 2 + M_PI*3 clockwise:YES];
     // 先画一个背景环
     CAShapeLayer *bgLayer = [CAShapeLayer layer];
     bgLayer.frame = self.bounds;
@@ -58,7 +57,7 @@
     self.gradientLayer = [CAGradientLayer layer];
     // 设置渐变图层
     CAGradientLayer *changeGradientLayer = [CAGradientLayer layer];
-    changeGradientLayer.frame = CGRectMake(0, 0, self.width , self.height);
+    changeGradientLayer.frame = CGRectMake(0, 0, self.sc_width , self.sc_height);
     [changeGradientLayer setColors:_colorsArray];
     [changeGradientLayer setLocations:@[@0,@0.9]];
     [changeGradientLayer setStartPoint:CGPointMake(0, 1)];

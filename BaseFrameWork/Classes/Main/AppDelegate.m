@@ -107,7 +107,7 @@
 #import <CocoaLumberjack.h>
 
 
-#define controllerName MJExtensionViewController
+#define controllerName YQTableViewController
 
 
 

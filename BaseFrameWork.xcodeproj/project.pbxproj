@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		000A5F8F1BD147C0B0F8D9E9 /* libPods-BaseFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 124D8C8FBD992BB5A893C59E /* libPods-BaseFrameWork.a */; };
 		C61552E1218B2B4C001B5B80 /* ZCCCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C61552DF218B2B4C001B5B80 /* ZCCCircleProgressView.m */; };
+		C61F5BA2218EBAAD003DD81C /* YQAnimationRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F5BA1218EBAAD003DD81C /* YQAnimationRefresh.m */; };
 		C6F8B28120AD27F600E2E901 /* YQ12306ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */; };
 		C6F8B28620AD299600E2E901 /* YQTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28520AD299600E2E901 /* YQTitleView.m */; };
 		C6F8B28920AD2CB800E2E901 /* YQTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28820AD2CB800E2E901 /* YQTitleCollectionViewCell.m */; };
@@ -282,6 +283,8 @@
 		C1D247F2FFC656FE69363781 /* Pods-BaseFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseFrameWork/Pods-BaseFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 		C61552DF218B2B4C001B5B80 /* ZCCCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCCircleProgressView.m; sourceTree = "<group>"; };
 		C61552E0218B2B4C001B5B80 /* ZCCCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCCircleProgressView.h; sourceTree = "<group>"; };
+		C61F5BA0218EBAAD003DD81C /* YQAnimationRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnimationRefresh.h; sourceTree = "<group>"; };
+		C61F5BA1218EBAAD003DD81C /* YQAnimationRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAnimationRefresh.m; sourceTree = "<group>"; };
 		C6F8B27F20AD27F600E2E901 /* YQ12306ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQ12306ViewController.h; sourceTree = "<group>"; };
 		C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQ12306ViewController.m; sourceTree = "<group>"; };
 		C6F8B28420AD299600E2E901 /* YQTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTitleView.h; sourceTree = "<group>"; };
@@ -1771,6 +1774,8 @@
 				D67BDF641EAE09C8004FEE70 /* YQGrouapModel.m */,
 				D67BDF661EAE09D7004FEE70 /* YQCarModel.h */,
 				D67BDF671EAE09D7004FEE70 /* YQCarModel.m */,
+				C61F5BA0218EBAAD003DD81C /* YQAnimationRefresh.h */,
+				C61F5BA1218EBAAD003DD81C /* YQAnimationRefresh.m */,
 			);
 			path = "TableView练习";
 			sourceTree = "<group>";
@@ -2479,6 +2484,7 @@
 				D6AB55CF20286BD800F7C41E /* NSArray+Log.m in Sources */,
 				C6FAD45920DCEF300032BF7F /* YQMenuViewController.m in Sources */,
 				C6FAD53F20DCF76B0032BF7F /* YQZhuangTaiOne.m in Sources */,
+				C61F5BA2218EBAAD003DD81C /* YQAnimationRefresh.m in Sources */,
 				D66FB66E1F3870B600FB37A6 /* YQBaseViewController.m in Sources */,
 				D62E02401E83F07500F9264A /* UIView+Util.m in Sources */,
 				D63F9D481FDA2D7F0024F610 /* DCPathItemButton.m in Sources */,

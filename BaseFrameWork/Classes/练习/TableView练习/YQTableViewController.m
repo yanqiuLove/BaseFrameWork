@@ -45,8 +45,40 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.tableView];
+    
+    NSMutableArray *imageArray = [NSMutableArray array];
+    for (NSInteger i = 0; i < 62; i++) {
+        NSString *name = [NSString stringWithFormat:@"refresh%ld",i+1];
+        UIImage *image = [UIImage imageNamed:name];
+        [imageArray addObject:image];
+    }
+    
+    
+    MJRefreshGifHeader *header = [MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
+    [header setImages:imageArray forState:MJRefreshStateRefreshing];
+    header.lastUpdatedTimeLabel.hidden = YES;
+    header.stateLabel.hidden = YES;
+    self.tableView.mj_header = header;
+    
+    MJRefreshAutoGifFooter *footer = [MJRefreshAutoGifFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
+    
+    // Set the refresh image
+    [footer setImages:imageArray forState:MJRefreshStateRefreshing];
+    footer.stateLabel.hidden = YES;
+    footer.refreshingTitleHidden = YES;
+    self.tableView.mj_footer = footer;
 }
-
+- (void)loadNewData {
+    SCLog(@"下拉刷新");
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.tableView.mj_header endRefreshing];
+    });
+}
+- (void)loadMoreData {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.tableView.mj_footer endRefreshing];
+    });
+}
 #pragma mark - UITableViewDelegate,UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.grouaps.count;
