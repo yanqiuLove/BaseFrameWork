@@ -107,6 +107,8 @@
     
     //    dispatch_async  并行   dispatch_sync串行
     
+    
+    
     dispatch_async(queue, ^{
         for (NSInteger i = 0; i < 10; i++) {
             NSLog(@"1---%@",[NSThread currentThread]);
