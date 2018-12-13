@@ -10,6 +10,9 @@
 		000A5F8F1BD147C0B0F8D9E9 /* libPods-BaseFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 124D8C8FBD992BB5A893C59E /* libPods-BaseFrameWork.a */; };
 		C61552E1218B2B4C001B5B80 /* ZCCCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C61552DF218B2B4C001B5B80 /* ZCCCircleProgressView.m */; };
 		C61F5BA2218EBAAD003DD81C /* YQAnimationRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F5BA1218EBAAD003DD81C /* YQAnimationRefresh.m */; };
+		C663ED8021C1F1150072B029 /* JhtMarquee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C663ED7D21C1F1150072B029 /* JhtMarquee.framework */; };
+		C663ED8121C1F1150072B029 /* CCMoveLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C663ED7E21C1F1150072B029 /* CCMoveLabelView.m */; };
+		C663ED8221C1F1150072B029 /* CCScrollViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C663ED7F21C1F1150072B029 /* CCScrollViewLabel.m */; };
 		C6F8B28120AD27F600E2E901 /* YQ12306ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */; };
 		C6F8B28620AD299600E2E901 /* YQTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28520AD299600E2E901 /* YQTitleView.m */; };
 		C6F8B28920AD2CB800E2E901 /* YQTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28820AD2CB800E2E901 /* YQTitleCollectionViewCell.m */; };
@@ -285,6 +288,11 @@
 		C61552E0218B2B4C001B5B80 /* ZCCCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCCircleProgressView.h; sourceTree = "<group>"; };
 		C61F5BA0218EBAAD003DD81C /* YQAnimationRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnimationRefresh.h; sourceTree = "<group>"; };
 		C61F5BA1218EBAAD003DD81C /* YQAnimationRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAnimationRefresh.m; sourceTree = "<group>"; };
+		C663ED7B21C1F1150072B029 /* CCMoveLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMoveLabelView.h; sourceTree = "<group>"; };
+		C663ED7C21C1F1150072B029 /* CCScrollViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScrollViewLabel.h; sourceTree = "<group>"; };
+		C663ED7D21C1F1150072B029 /* JhtMarquee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JhtMarquee.framework; sourceTree = "<group>"; };
+		C663ED7E21C1F1150072B029 /* CCMoveLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMoveLabelView.m; sourceTree = "<group>"; };
+		C663ED7F21C1F1150072B029 /* CCScrollViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCScrollViewLabel.m; sourceTree = "<group>"; };
 		C6F8B27F20AD27F600E2E901 /* YQ12306ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQ12306ViewController.h; sourceTree = "<group>"; };
 		C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQ12306ViewController.m; sourceTree = "<group>"; };
 		C6F8B28420AD299600E2E901 /* YQTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTitleView.h; sourceTree = "<group>"; };
@@ -751,6 +759,7 @@
 			files = (
 				D6D618491EAF341900CF8BE2 /* libsqlite3.0.tbd in Frameworks */,
 				D67052621EA616A400565BCB /* WebKit.framework in Frameworks */,
+				C663ED8021C1F1150072B029 /* JhtMarquee.framework in Frameworks */,
 				000A5F8F1BD147C0B0F8D9E9 /* libPods-BaseFrameWork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -811,6 +820,18 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		C663ED7A21C1F1150072B029 /* CCMoveLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				C663ED7B21C1F1150072B029 /* CCMoveLabelView.h */,
+				C663ED7E21C1F1150072B029 /* CCMoveLabelView.m */,
+				C663ED7C21C1F1150072B029 /* CCScrollViewLabel.h */,
+				C663ED7F21C1F1150072B029 /* CCScrollViewLabel.m */,
+				C663ED7D21C1F1150072B029 /* JhtMarquee.framework */,
+			);
+			path = CCMoveLabelView;
+			sourceTree = "<group>";
+		};
 		C6F8B27E20AD27E000E2E901 /* 12306测试 */ = {
 			isa = PBXGroup;
 			children = (
@@ -843,6 +864,7 @@
 		C6FAD44520DCE3FE0032BF7F /* 自定义控件 */ = {
 			isa = PBXGroup;
 			children = (
+				C663ED7A21C1F1150072B029 /* CCMoveLabelView */,
 				C61552DE218B2B4C001B5B80 /* 动画圆环 */,
 				C6FAD45320DCEDB10032BF7F /* 出现下拉菜单 */,
 				C6FAD44620DCE43C0032BF7F /* 自定义TabBar */,
@@ -2412,6 +2434,7 @@
 				D63D95931FFE364F00FFC462 /* ZFXAxisLine.m in Sources */,
 				D6EE17FD1FD131CE00191EC3 /* YQType1.m in Sources */,
 				D63D95881FFE364F00FFC462 /* ZFCirqueChart.m in Sources */,
+				C663ED8221C1F1150072B029 /* CCScrollViewLabel.m in Sources */,
 				D6BF8F311FE9082600BBD727 /* YQPhoneBaseModel.m in Sources */,
 				D6D4EC64201732F60073CEAC /* JKDBHelper.m in Sources */,
 				D67052741EA8916200565BCB /* Man.m in Sources */,
@@ -2426,6 +2449,7 @@
 				D63D952C1FFE360600FFC462 /* SingleBarChartViewController.m in Sources */,
 				C6FAD53420DCF76B0032BF7F /* YQSecondState.m in Sources */,
 				D61134081E82556E008BF2C4 /* NSObject+Util.m in Sources */,
+				C663ED8121C1F1150072B029 /* CCMoveLabelView.m in Sources */,
 				D6E9F0981F5D80AE005419B4 /* YQKnowledgeViewController.m in Sources */,
 				D63D959E1FFE364F00FFC462 /* ZFWave.m in Sources */,
 				D641A03F1F26E97E005D678D /* YQCeShiModel.m in Sources */,
@@ -2681,6 +2705,10 @@
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaseFrameWork/Classes/自定义控件/CCMoveLabelView",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseFrameWork/Classes/Common/BaseFrameWork.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/BaseFrameWork/Classes/Main/Info.plist";
@@ -2701,6 +2729,10 @@
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaseFrameWork/Classes/自定义控件/CCMoveLabelView",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseFrameWork/Classes/Common/BaseFrameWork.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/BaseFrameWork/Classes/Main/Info.plist";
