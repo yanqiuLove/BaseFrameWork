@@ -13,9 +13,6 @@
 		C663ED8021C1F1150072B029 /* JhtMarquee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C663ED7D21C1F1150072B029 /* JhtMarquee.framework */; };
 		C663ED8121C1F1150072B029 /* CCMoveLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C663ED7E21C1F1150072B029 /* CCMoveLabelView.m */; };
 		C663ED8221C1F1150072B029 /* CCScrollViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C663ED7F21C1F1150072B029 /* CCScrollViewLabel.m */; };
-		C6F8B28120AD27F600E2E901 /* YQ12306ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */; };
-		C6F8B28620AD299600E2E901 /* YQTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28520AD299600E2E901 /* YQTitleView.m */; };
-		C6F8B28920AD2CB800E2E901 /* YQTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F8B28820AD2CB800E2E901 /* YQTitleCollectionViewCell.m */; };
 		C6FAD44920DCE53E0032BF7F /* YQTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD44820DCE53E0032BF7F /* YQTabBarViewController.m */; };
 		C6FAD44C20DCE59F0032BF7F /* YQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD44B20DCE59F0032BF7F /* YQTabBar.m */; };
 		C6FAD44F20DCE89C0032BF7F /* YQAllTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FAD44E20DCE89C0032BF7F /* YQAllTabBar.m */; };
@@ -293,12 +290,6 @@
 		C663ED7D21C1F1150072B029 /* JhtMarquee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JhtMarquee.framework; sourceTree = "<group>"; };
 		C663ED7E21C1F1150072B029 /* CCMoveLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMoveLabelView.m; sourceTree = "<group>"; };
 		C663ED7F21C1F1150072B029 /* CCScrollViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCScrollViewLabel.m; sourceTree = "<group>"; };
-		C6F8B27F20AD27F600E2E901 /* YQ12306ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQ12306ViewController.h; sourceTree = "<group>"; };
-		C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQ12306ViewController.m; sourceTree = "<group>"; };
-		C6F8B28420AD299600E2E901 /* YQTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTitleView.h; sourceTree = "<group>"; };
-		C6F8B28520AD299600E2E901 /* YQTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTitleView.m; sourceTree = "<group>"; };
-		C6F8B28720AD2CB800E2E901 /* YQTitleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTitleCollectionViewCell.h; sourceTree = "<group>"; };
-		C6F8B28820AD2CB800E2E901 /* YQTitleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTitleCollectionViewCell.m; sourceTree = "<group>"; };
 		C6FAD44720DCE53E0032BF7F /* YQTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTabBarViewController.h; sourceTree = "<group>"; };
 		C6FAD44820DCE53E0032BF7F /* YQTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBarViewController.m; sourceTree = "<group>"; };
 		C6FAD44A20DCE59F0032BF7F /* YQTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTabBar.h; sourceTree = "<group>"; };
@@ -832,35 +823,6 @@
 			path = CCMoveLabelView;
 			sourceTree = "<group>";
 		};
-		C6F8B27E20AD27E000E2E901 /* 12306测试 */ = {
-			isa = PBXGroup;
-			children = (
-				C6F8B27F20AD27F600E2E901 /* YQ12306ViewController.h */,
-				C6F8B28020AD27F600E2E901 /* YQ12306ViewController.m */,
-				C6FAD44420DCAB700032BF7F /* Model */,
-				C6F8B28220AD286E00E2E901 /* View */,
-			);
-			path = "12306测试";
-			sourceTree = "<group>";
-		};
-		C6F8B28220AD286E00E2E901 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C6F8B28420AD299600E2E901 /* YQTitleView.h */,
-				C6F8B28520AD299600E2E901 /* YQTitleView.m */,
-				C6F8B28720AD2CB800E2E901 /* YQTitleCollectionViewCell.h */,
-				C6F8B28820AD2CB800E2E901 /* YQTitleCollectionViewCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C6FAD44420DCAB700032BF7F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		C6FAD44520DCE3FE0032BF7F /* 自定义控件 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1131,15 +1093,15 @@
 		C6FAD4EC20DCF76B0032BF7F /* 11状态模式 */ = {
 			isa = PBXGroup;
 			children = (
-				C6FAD4ED20DCF76B0032BF7F /* YQZhuangTaiManager.m */,
-				C6FAD4EE20DCF76B0032BF7F /* YQZhuangTaiTow.m */,
-				C6FAD4EF20DCF76B0032BF7F /* YQZhuangTaiMoshiViewController.h */,
-				C6FAD4F020DCF76B0032BF7F /* YQZhuangTaiOne.h */,
-				C6FAD4F120DCF76B0032BF7F /* YQZhuangTaiTow.h */,
 				C6FAD4F220DCF76B0032BF7F /* YQZhuangTaiManager.h */,
+				C6FAD4ED20DCF76B0032BF7F /* YQZhuangTaiManager.m */,
+				C6FAD4EF20DCF76B0032BF7F /* YQZhuangTaiMoshiViewController.h */,
 				C6FAD4F320DCF76B0032BF7F /* YQZhuangTaiMoshiViewController.m */,
+				C6FAD4F020DCF76B0032BF7F /* YQZhuangTaiOne.h */,
 				C6FAD4F420DCF76B0032BF7F /* YQZhuangTaiOne.m */,
 				C6FAD4F520DCF76B0032BF7F /* YQZhuangTaiProtocol.h */,
+				C6FAD4F120DCF76B0032BF7F /* YQZhuangTaiTow.h */,
+				C6FAD4EE20DCF76B0032BF7F /* YQZhuangTaiTow.m */,
 			);
 			path = "11状态模式";
 			sourceTree = "<group>";
@@ -1728,7 +1690,6 @@
 		D670526A1EA88DC400565BCB /* 练习 */ = {
 			isa = PBXGroup;
 			children = (
-				C6F8B27E20AD27E000E2E901 /* 12306测试 */,
 				D6AB55D42029855300F7C41E /* 新手引导 */,
 				D6ECA16B202078B80000AFC4 /* Cell自适应高度 */,
 				D6A21D5F1FFCBA4A00DC5DC0 /* 雷达图 */,
@@ -2351,7 +2312,6 @@
 				D6AB55D020286CA400F7C41E /* NSArray+Log.h in Sources */,
 				D61EEE211F340AE400483761 /* SCBaseResult.m in Sources */,
 				D67052541EA5E2A700565BCB /* UIColor+WJ.m in Sources */,
-				C6F8B28120AD27F600E2E901 /* YQ12306ViewController.m in Sources */,
 				C6FAD51A20DCF76B0032BF7F /* YQDaZhe.m in Sources */,
 				C6FAD54720DCF76B0032BF7F /* YQFactoryStateViewController.m in Sources */,
 				D6BF8F0A1FE8BBDF00BBD727 /* JieXiShuJuViewController.m in Sources */,
@@ -2365,7 +2325,6 @@
 				C6FAD51F20DCF76B0032BF7F /* YQCopyB.m in Sources */,
 				C6FAD54220DCF76B0032BF7F /* YQGuanChaZheMoShiViewController.m in Sources */,
 				D6ECA16E202078FF0000AFC4 /* YQZiShiYingGaoDuViewController.m in Sources */,
-				C6F8B28920AD2CB800E2E901 /* YQTitleCollectionViewCell.m in Sources */,
 				D6EE18671FD5547F00191EC3 /* YQDBManager.m in Sources */,
 				D63D95961FFE364F00FFC462 /* ZFLabel.m in Sources */,
 				C6FAD52820DCF76B0032BF7F /* YQArmRight.m in Sources */,
@@ -2474,7 +2433,6 @@
 				D670527B1EA8C57700565BCB /* GuideViewController.m in Sources */,
 				D6A21D681FFCBB7500DC5DC0 /* RaderMapCompleteView.m in Sources */,
 				D63D958A1FFE364F00FFC462 /* ZFHorizontalAxis.m in Sources */,
-				C6F8B28620AD299600E2E901 /* YQTitleView.m in Sources */,
 				C61552E1218B2B4C001B5B80 /* ZCCCircleProgressView.m in Sources */,
 				D6EE18001FD131DC00191EC3 /* YQType2.m in Sources */,
 				D6ECA171202079750000AFC4 /* YQCellZiShiYingGaoDuCell.m in Sources */,
