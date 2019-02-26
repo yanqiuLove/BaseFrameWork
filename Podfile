@@ -17,4 +17,7 @@ target 'BaseFrameWork' do
     pod 'CocoaLumberjack'
     pod 'UITableView+FDTemplateLayoutCell'
     pod 'AvoidCrash'
+
+#Label添加点击事件
+    pod 'YBAttributeTextTapAction'
 end

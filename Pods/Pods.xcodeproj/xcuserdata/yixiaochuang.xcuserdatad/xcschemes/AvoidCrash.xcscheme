@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FD0049ED358E94741DA4FB43947B4D1"
+               BlueprintIdentifier = "0EC1F965BA5CD7AC35EDD20CB475CF3B"
                BlueprintName = "AvoidCrash"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libAvoidCrash.a">

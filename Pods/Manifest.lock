@@ -36,8 +36,9 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
-  - UITableView+FDTemplateLayoutCell (1.6)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
   - UMengAnalytics-NO-IDFA (4.2.5)
+  - YBAttributeTextTapAction (3.0.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -54,8 +55,29 @@ DEPENDENCIES:
   - Reachability (~> 3.1.1)
   - SDCycleScrollView
   - SDWebImage
-  - UITableView+FDTemplateLayoutCell
+  - "UITableView+FDTemplateLayoutCell"
   - UMengAnalytics-NO-IDFA
+  - YBAttributeTextTapAction
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AvoidCrash
+    - CocoaLumberjack
+    - CYLTabBarController
+    - FDFullscreenPopGesture
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - Reachability
+    - SDCycleScrollView
+    - SDWebImage
+    - "UITableView+FDTemplateLayoutCell"
+    - UMengAnalytics-NO-IDFA
+    - YBAttributeTextTapAction
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -72,9 +94,10 @@ SPEC CHECKSUMS:
   Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
   SDCycleScrollView: 90e43636fcc8e6a7f74e8b64d87418a8e96549b4
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
-  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  YBAttributeTextTapAction: b7e61f0265b5673e7ce7bad7319e8eff9e209a2b
 
-PODFILE CHECKSUM: 5413e25e79ee73704205d69e3fcbb631014aaa92
+PODFILE CHECKSUM: 9c770a25d4c80ecb4d46ece15817cefb9b9a664a
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
