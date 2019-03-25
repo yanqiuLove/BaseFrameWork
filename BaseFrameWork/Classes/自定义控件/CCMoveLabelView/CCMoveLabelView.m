@@ -28,9 +28,6 @@
 //    // 开启跑马灯
 //    [_horizontalMarquee marqueeOfSettingWithState:MarqueeStart_H];
     
-    CCScrollViewLabel *scrollViewLabel = [[CCScrollViewLabel alloc]initWithFrame:CGRectMake(60, 0, kScreenWidth - 120, kNavBarHeight)];
-    scrollViewLabel.text = _titleStr;
-    [self addSubview:scrollViewLabel];
     
 }
 

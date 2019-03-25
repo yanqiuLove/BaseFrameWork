@@ -96,8 +96,6 @@
 #import "YQZiShiYingGaoDuViewController.h"
 /** 新手引导 */
 #import "YQNewUserGuidViewController.h"
-/** 12306生活测试 */
-#import "YQ12306ViewController.h"
 /** 自定义tabbae */
 #import "YQTabBarViewController.h"
 /** 出现下拉菜单 */
