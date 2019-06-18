@@ -105,6 +105,8 @@
 #import <CocoaLumberjack.h>
 
 
+
+
 #define controllerName YQTableViewController
 
 
@@ -128,8 +130,6 @@
     [AvoidCrash makeAllEffective];
     //监听通知:AvoidCrashNotification, 获取AvoidCrash捕获的崩溃日志的详细信息
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dealwithCrashMessage:) name:AvoidCrashNotification object:nil];
-    //测试新key
-    
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
 //    YQTestView *testViw = [[YQTestView alloc]initWithFrame:CGRectMake(30, 100, 80, 80)];
